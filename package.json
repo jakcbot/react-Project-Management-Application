@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jakcbot.github.io/react-Project-Management-Application/tree/main/react-assn4",
+  "homepage": "https://jakcbot.github.io/react-Project-Management-Application",
   "name": "react-assn4",
   "version": "0.1.0",
   "private": true,
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
