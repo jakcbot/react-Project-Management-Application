@@ -6,14 +6,21 @@ const Search = (props) => {
 
   // Handle search input change
   const handleSearchChange = (e) => {
-    setSearchTerm(e.target.value);
-    props.searchProjects(e.target.value);
+    const term = e.target.value;
+    setSearchTerm(term);
+    props.searchProjects(term);
+
+    // If the search term is empty, trigger a function to reset the list
+    if (!term) {
+      props.resetList(); // Ensure that resetList is defined and passed down as a prop
+    }
   };
 
   // Handle sort option change
   const handleSortChange = (e) => {
-    setSortType(e.target.value);
-    props.sortProjects(e.target.value);
+    const type = e.target.value;
+    setSortType(type);
+    props.sortProjects(type);
   };
 
   return (

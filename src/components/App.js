@@ -56,7 +56,7 @@ const sortProjects = (sortBy) => {
 
   // Update the project list with the sorted projects
   setMyProjects(sortedProjects);
-};
+  };
 
   useEffect(() => {
     // Fetch data from a JSON file and initialize projects array
@@ -78,8 +78,7 @@ const sortProjects = (sortBy) => {
   //render components
   return (
     <main className="page bg-white" id="petratings">
-      <h1>Projects</h1>
-      <br></br>
+      <h1>Project Management</h1>
       <div className="container">
         <div className="row">
           <div className="col-md-12 bg-white">
