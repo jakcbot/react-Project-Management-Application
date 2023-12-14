@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55041a4499d573e07caf0f7a1b1128aa",
+    "revision": "ef9b260c2e06e306510ee352eb45e131",
     "url": "/react-Project-Management-Application/index.html"
   },
   {
-    "revision": "9ac69127356ac7e7837d",
+    "revision": "5e76bcbe80ad02d989a3",
     "url": "/react-Project-Management-Application/static/css/main.be73b791.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-Project-Management-Application/static/js/3.31c88699.chunk.js"
   },
   {
-    "revision": "9ac69127356ac7e7837d",
-    "url": "/react-Project-Management-Application/static/js/main.de39f3f2.chunk.js"
+    "revision": "5e76bcbe80ad02d989a3",
+    "url": "/react-Project-Management-Application/static/js/main.60e208ed.chunk.js"
   },
   {
     "revision": "eae76aa90e5c1276b936",
